@@ -16,7 +16,7 @@ const props = defineProps({
     class="w-full h-[440px]"
   >
     <div
-      :style="{backgroundImage: `url('${item.images?.[0].path ?? ''}')`}"
+      :style="{backgroundImage: `url('/src/assets/${item.images?.[0].path ?? ''}')`}"
       class="bg-no-repeat bg-cover w-full h-[90%] rounded-md"
     />
     <div class="w-full flex items-center pt-4 gap-x-2">

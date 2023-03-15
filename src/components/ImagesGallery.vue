@@ -40,7 +40,7 @@ const removeImage = (index: number) => {
   <div
     v-bind="getRootProps()"
     v-if="!images?.length"
-    class="h-[120px] w-full border-2 border-dashed border-gray-200 rounded-md bg-[url(/gallery-empty.png)] bg-no-repeat bg-center cursor-pointer"
+    class="h-[120px] w-full border-2 border-dashed border-gray-200 rounded-md bg-[url(/src/assets/gallery-empty.png)] bg-no-repeat bg-center cursor-pointer"
   >
     <input v-bind="getInputProps()" />
   </div>
@@ -50,7 +50,7 @@ const removeImage = (index: number) => {
       :key="index"
       class="group w-[120px] relative h-full"
     >
-      <img :src="image.path" class="" />
+      <img :src="`/src/assets/${image.path}`" class="" />
       <div
         class="group-hover:bg-white group-hover:bg-opacity-40 absolute top-0 left-0 w-full h-full"
       />
@@ -63,7 +63,7 @@ const removeImage = (index: number) => {
     <div
       v-if="images.length < 4"
       v-bind="getRootProps()"
-      class="h-[120px] w-[120px] border-2 border-dashed border-gray-200 rounded-md bg-[url(/plus.png)] bg-no-repeat bg-center cursor-pointer"
+      class="h-[120px] w-[120px] border-2 border-dashed border-gray-200 rounded-md bg-[url(/src/assets/plus.png)] bg-no-repeat bg-center cursor-pointer"
     >
       <input v-bind="getInputProps()" />
     </div>
