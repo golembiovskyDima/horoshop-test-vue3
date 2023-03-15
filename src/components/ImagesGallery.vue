@@ -17,7 +17,7 @@ const onDrop = (acceptFiles: File[]) => {
     ...props.images,
     ...acceptFiles
       .slice(0, freeLength)
-      .map((item) => ({ path: `/${item.name}` })),
+      .map((item) => ({ path: `/src/assets/${item.name}` })),
   ]);
 };
 
@@ -50,7 +50,7 @@ const removeImage = (index: number) => {
       :key="index"
       class="group w-[120px] relative h-full"
     >
-      <img :src="`/src/assets/${image.path}`" class="" />
+      <img :src="image.path" class="" />
       <div
         class="group-hover:bg-white group-hover:bg-opacity-40 absolute top-0 left-0 w-full h-full"
       />

@@ -7,7 +7,7 @@ const list: DesignItem[] = [
     name: 'Flora',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/flora.png' },
+      { path: '/src/assets/flora.png' },
     ],
     isPublished: true,
   },
@@ -17,7 +17,7 @@ const list: DesignItem[] = [
     name: 'Ostrov',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/ostrov.png' },
+      { path: '/src/assets/ostrov.png' },
     ],
     isPublished: true,
   },
@@ -27,7 +27,7 @@ const list: DesignItem[] = [
     name: 'Sun-Wear',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/sun-wear.png' },
+      { path: '/src/assets/sun-wear.png' },
     ],
     isPublished: true,
   },
@@ -37,7 +37,7 @@ const list: DesignItem[] = [
     name: 'Flora',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/flora.png' },
+      { path: '/src/assets/flora.png' },
     ],
     isPublished: true,
   },
@@ -47,7 +47,7 @@ const list: DesignItem[] = [
     name: 'Ostrov',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/ostrov.png' },
+      { path: '/src/assets/ostrov.png' },
     ],
     isPublished: true,
   },
@@ -57,7 +57,7 @@ const list: DesignItem[] = [
     name: 'Sun-Wear',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/sun-wear.png' },
+      { path: '/src/assets/sun-wear.png' },
     ],
     isPublished: true,
   },
@@ -67,7 +67,7 @@ const list: DesignItem[] = [
     name: 'Flora',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/flora.png' },
+      { path: '/src/assets/flora.png' },
     ],
     isPublished: true,
   },
@@ -77,7 +77,7 @@ const list: DesignItem[] = [
     name: 'Ostrov',
     url: 'https://design###.horoshop.ua/',
     images: [
-      { path: '/ostrov.png' },
+      { path: '/src/assets/ostrov.png' },
     ],
     isPublished: true,
   },

@@ -47,7 +47,6 @@ export const useDesingsStore = defineStore('desings', {
         const index = this.list.findIndex(item => design.id == item.id);
 
         this.list[index] = { ...this.list[index], ...design }
-        console.log('ww', this.list[index]);
 
       } catch (error) {
         console.error(error);
