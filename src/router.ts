@@ -27,6 +27,6 @@ const routes: RouteRecordRaw[] = [
 ]
 
 export default createRouter({
-	history: createWebHistory(),
+	history: createWebHistory('/horoshop-test-vue3/'),
 	routes
 })
